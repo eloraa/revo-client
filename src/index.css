@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-pale;
+}
+
+img,
+svg,
+video {
+  @apply h-full w-full object-cover;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  height: 5px;
+  @apply bg-rose-main;
+  border-radius: 9999999px;
+}
+.no-scroll::-webkit-scrollbar {
+  @apply w-0 h-0;
+}
+
+input.appearance-none[type='date']::-webkit-inner-spin-button,
+input.appearance-none[type='date']::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
