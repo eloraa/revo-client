@@ -2,7 +2,7 @@
 it's a simple tech product management website with voting, coupons, and a user management system.
 
 ## Live Link
-[https://eloraa.github.io/revo-client/](https://eloraa.github.io/revo-client/?from=git)
+[https://eloraa.github.io/revo/](https://eloraa.github.io/revo/?from=git)
 
 ## Getting Started
 To get you started you can simply clone the repository:
